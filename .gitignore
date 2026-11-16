@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data: downloaded from football-data.co.uk - fetch it with `python -m footy.ingest`, don't commit it
+data/
+
+# Secrets (API keys later)
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
