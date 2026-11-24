@@ -6,8 +6,9 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
-# Data: downloaded from football-data.co.uk - fetch it with `python -m footy.ingest`, don't commit it
-data/
+# Data: downloaded from football-data.co.uk - fetch it with `python -m footy.ingest`, don't commit it.
+# Leading "/" = only the top-level data/ folder, so tests/data/ (small samples) IS committed.
+/data/
 
 # Secrets (API keys later)
 .env
